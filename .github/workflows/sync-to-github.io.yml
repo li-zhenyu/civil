@@ -23,7 +23,7 @@ jobs:
           git clone --branch source https://github.com/li-zhenyu/li-zhenyu.github.io.git homepage
           rm -rf homepage/docs/civil
           mkdir -p homepage/docs/civil
-          cp -r ./* homepage/docs/civil/
+          cp ./*.md homepage/docs/civil/
 
       - name: Commit and push changes
         working-directory: homepage
